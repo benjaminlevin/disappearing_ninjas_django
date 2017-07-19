@@ -1,0 +1,14 @@
+<html>
+  <head>
+    <title>Disappearing Ninjas</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'dapp/css/style.css' %}">
+  </head>
+  <body>
+  <p>{{ message }}</p>
+  <img src="../../static/dapp/images/{{ color }}" alt='ninja'>
+  <img src="../../static/dapp/images/{{ orange }}" alt='ninja'>
+  <img src="../../static/dapp/images/{{ red }}" alt='ninja'>
+  <img src="../../static/dapp/images/{{ purple }}" alt='ninja'>
+  </body>
+</html>
